@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+  font-family: var(--header-font);
+  background-color: var(--extra-light);
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+p {
+  color: var(--text-light);
+}
+
+/* Calligraphy Section */
+.calligraphy-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: var(--extra-light);
+}
+
+.calligraphy-section h2 {
+  font-size: 4em;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.personalisation-description {
+  height: 200px;
+  font-family: "Lato", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 2rem;
+  margin-bottom: 100px;
+}
+
+.calligraphy-content {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 20px;
+}
+
+.calligraphy-content img {
+  display: inline-block;
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.calligraphy-info {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.calligraphy-info p {
+  color: var(--text-dark);
+  font-size: 1.5em;
+}

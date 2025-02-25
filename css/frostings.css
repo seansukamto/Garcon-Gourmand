@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: var(--header-font);
+    background-color: var(--extra-light);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    color: var(--text-light);
+}
+
+/* Frosting Sections */
+.frosting-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.frosting-section h2 {
+    font-size: 2em;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Frosting Gallery */
+.frosting-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 20px;
+}
+
+/* Individual Frosting Cards */
+.frosting {
+    background: var(--white);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.frosting:hover {
+    transform: scale(1.05);
+}
+
+.frosting img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.frosting h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: var(--primary-color);
+}
+
+.frosting p {
+    color: var(--text-light);
+}
+
+/* View Personalisation Button */
+.button-container {
+    width: 100%;
+    text-align: center; 
+    padding: 20px 0; 
+}
+  
+.view-personalisation-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 2rem;
+    color: #fff; 
+    background-color: #d32f2f;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+}
+  
+.view-personalisation-button:hover {
+    background-color: #b71c1c; 
+    transform: scale(1.2);
+}
