@@ -13,16 +13,18 @@
 }
 
 .personalisation-description {
-  height: 200px;
+  height: auto;
   font-family: "Lato", serif;
   font-weight: 500;
   font-style: italic;
   font-size: 2rem;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  padding: 10px;
 }
 
 .calligraphy-content {
-  display: block;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
@@ -32,7 +34,6 @@
 }
 
 .calligraphy-content img {
-  display: inline-block;
   width: 80%;
   height: auto;
   border-radius: 5px;
@@ -41,11 +42,70 @@
 
 .calligraphy-info {
   width: 100%;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 .calligraphy-info p {
   color: var(--text-dark);
   font-size: 1.5em;
+}
+
+@media (max-width: 1024px) {
+  .calligraphy-section h2 {
+    font-size: 3em;
+  }
+
+  .personalisation-description {
+    font-size: 1.8rem;
+  }
+
+  .calligraphy-content {
+    flex-direction: column;
+  }
+
+  .calligraphy-content img {
+    width: 90%;
+  }
+
+  .calligraphy-info p {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 768px) {
+  .calligraphy-section {
+    padding: 20px 10px;
+  }
+
+  .calligraphy-section h2 {
+    font-size: 2.5em;
+  }
+
+  .personalisation-description {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .calligraphy-content img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .calligraphy-info p {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .calligraphy-section h2 {
+    font-size: 2em;
+  }
+
+  .personalisation-description {
+    font-size: 1.3rem;
+  }
+
+  .calligraphy-info p {
+    font-size: 1em;
+  }
 }
