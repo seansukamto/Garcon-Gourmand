@@ -269,6 +269,8 @@ header {
 
 .about-header .section-description {
   font-size: 1.5rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* View Cakes Button */
