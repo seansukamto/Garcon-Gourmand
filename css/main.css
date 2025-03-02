@@ -77,6 +77,8 @@ h1 {
 
 p {
   color: var(--text-light);
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 nav {
