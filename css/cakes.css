@@ -53,6 +53,8 @@
 
 .cake p {
   color: var(--text-light);
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* View Frostings Button */
