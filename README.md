@@ -1,1 +1,5 @@
-Homemade cakes and more: https://www.instagram.com/garcon.gourmand/?hl=en
+Garcon Gourmand bakery website built with HTML, CSS, JavaScript.
+
+Instagram - https://www.instagram.com/garcon.gourmand/?hl=en
+
+
