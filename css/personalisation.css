@@ -1,10 +1,10 @@
-.calligraphy-section {
+.personalisation-section {
   text-align: center;
   padding: 40px 20px;
   background-color: var(--extra-light);
 }
 
-.calligraphy-section h2 {
+.personalisation-section h2 {
   font-size: 3em;
   color: var(--primary-color);
   margin-bottom: 20px;
